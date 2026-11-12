@@ -4,6 +4,7 @@
 ## Author: zakarulcodes
 ## Version: @project-version@
 ## SavedVariables: ProfileSwapDB
+## X-Curse-Project-ID: 1800871
 ## IconTexture: Interface\Icons\INV_Misc_Gear_01
 
 Libs\LibStub\LibStub.lua
