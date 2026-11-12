@@ -1,0 +1,26 @@
+## Interface: 16001
+## Title: ProfileSwap
+## Notes: One profile per device: display, Edit Mode layout, UI scale, controller + Gamepad UI, addon sets and addon profiles. Switch in one click. /pswap
+## Author: zakarulcodes
+## Version: @project-version@
+## SavedVariables: ProfileSwapDB
+## IconTexture: Interface\Icons\INV_Misc_Gear_01
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibEditMode\embed.xml
+
+Core.lua
+Theme.lua
+Targets.lua
+Sets.lua
+Reload.lua
+Apply.lua
+Picker.lua
+Broker.lua
+Options.lua
+UI\Window.lua
+UI\Overview.lua
+UI\Profiles.lua
+UI\Sets.lua

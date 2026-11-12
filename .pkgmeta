@@ -1,0 +1,11 @@
+package-as: ProfileSwap
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - media
+  - CURSEFORGE.md
+  # embedded library: its TOC lists retail interfaces, which must not tag this release
+  - Libs/LibEditMode/LibEditMode.toc

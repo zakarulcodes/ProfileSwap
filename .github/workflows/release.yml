@@ -1,0 +1,25 @@
+# Packages the addon and uploads it to CurseForge and GitHub Releases
+# whenever a version tag (v*) is pushed. Tags containing "beta" or "alpha"
+# are uploaded as that release type.
+name: Package and release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: BigWigsMods/packager@v2
+        with:
+          args: -g forever
