@@ -1,5 +1,9 @@
 # ProfileSwap
 
+## 1.0.1
+
+- Now also available on Wago. No changes to the addon itself.
+
 ## 1.0.0
 
 First release.
