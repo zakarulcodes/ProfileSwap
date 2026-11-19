@@ -5,6 +5,7 @@
 ## Version: @project-version@
 ## SavedVariables: ProfileSwapDB
 ## X-Curse-Project-ID: 1800871
+## X-Wago-ID: n6VYxONd
 ## IconTexture: Interface\Icons\INV_Misc_Gear_01
 
 Libs\LibStub\LibStub.lua
